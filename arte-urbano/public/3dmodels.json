@@ -27,7 +27,7 @@
   {
     "slug": "besada",
     "title": "El món neix en cada besada (demo)",
-    "model": "/3dmodels/besada/model.glb",
+    "model": "/3dmodels/besada/besada2.glb",
     "camera": { "pos": [2.0, 1.6, 2.2], "lookAt": [0, 0.8, 0] },
     "env": { "background": "#0f1115", "exposure": 1.0 },
     "transform": { "scale": 1.0, "rotation": [0, 0.3, 0] }

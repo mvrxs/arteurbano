@@ -19,6 +19,7 @@ const markerIcon = L.icon({
     shadowSize: [41,41],
 })
 
+
 //FUNCIONES DEL OVERLAY
 function openViewer(slug) {
     // Carga el visor existente dentro del iframe
@@ -80,28 +81,37 @@ map.on('tileerror', (e) => {
 })
 
 // LLAMADA A LOS MARCADORES CON THREE
-fetch('/marcadores.json')
+const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
+
+fetch(`${base}/marcadores.json`)
     .then(r => r.json())
     .then(puntos => {
         puntos.forEach(p => {
             const popupHTML = `
-         <div class="popup">
-    ${p.html}
-    <div style="margin-top:8px;">
-      <button class="btn-3d"
-              data-slug="${p.slug}"
+        <div class="popup">
+          ${p.html}
+          <div style="margin-top:8px;">
+            <button class="btn-3d" data-slug="${p.slug}"
               style="display:inline-block;padding:6px 10px;border-radius:6px;text-decoration:none;border:1px solid #444;background:#111;color:#fff;cursor:pointer">
-        Ver modelo 3D
-      </button>
-    </div>
-        </div>
-      `;
-            L.marker([p.lat, p.lng])
-                .addTo(map)
-                .bindPopup(popupHTML);
+              Ver modelo 3D
+            </button>
+          </div>
+        </div>`;
+            L.marker([p.lat, p.lng]).addTo(map).bindPopup(popupHTML);
         });
-    })
-    .catch(err => console.error('Error cargando marcadores.json:', err));
+    });
+
+map.on('popupopen', (e) => {
+    const root = e.popup._contentNode;
+    const btn = root.querySelector('.btn-3d');
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+        const slug = btn.dataset.slug;
+        //window.open(`${base}/viewer.html?slug=${encodeURIComponent(slug)}`, '_blank', 'noopener');
+    }, { once: true });
+});
+
+
 
 //ATRIBUCION FOOTER MAPA
 map.attributionControl.setPrefix(false)
