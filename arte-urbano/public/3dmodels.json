@@ -30,15 +30,23 @@
     "model": "/3dmodels/besada/besada2.glb",
     "camera": { "pos": [2.0, 1.6, 2.2], "lookAt": [0, 0.8, 0] },
     "env": { "background": "#0f1115", "exposure": 1.0 },
-    "transform": { "scale": 1.0, "rotation": [0, 0.3, 0] }
+    "transform": { "scale": 1.0, "rotation": [0, 0.3, 0] },
+    "license": {
+      "type": "CC BY 4.0",
+      "author": "yaro.pro",
+      "source": "https://sketchfab.com/3d-models/blacksmiths-of-modernity-mosaic-1974-kyiv-73c285f1db454594aa60c9e13e54db7b" }
   },
   {
     "slug": "tres-xemeneies",
     "title": "Jardins de les Tres Xemeneies (demo)",
-    "model": "/3dmodels/tres-xemeneies/model.glb",
+    "model": "/3dmodels/tres-xemeneies/chimenea.glb",
     "camera": { "pos": [2.2, 1.4, 2.0], "lookAt": [0, 0.6, 0] },
     "env": { "background": "#0f1115", "exposure": 1.0 },
-    "transform": { "scale": 1.0 }
+    "transform": { "scale": 1.0 },
+    "license": {
+      "type": "CC BY 4.0",
+      "author": "ribot02",
+      "source": "https://sketchfab.com/3d-models/simple-triple-chimney-04ec66aa997942aa911d2d4508c7dafeskate" }
   },
   {
     "slug": "haring-bmacba",
@@ -75,10 +83,14 @@
   {
     "slug": "besos",
     "title": "Parc Fluvial del Besòs (demo)",
-    "model": "/3dmodels/besos/model.glb",
+    "model": "/3dmodels/besos/mural.glb",
     "camera": { "pos": [2.2, 1.4, 2.2], "lookAt": [0, 0.5, 0] },
     "env": { "background": "#0f1115", "exposure": 1.0 },
-    "transform": { "scale": 1.0 }
+    "transform": { "scale": 1.0 },
+    "license": {
+      "type": "CC BY-NC-SA 4.0",
+      "author": "alexdelker",
+      "source": "https://sketchfab.com/3d-models/day-88-kansas-city-mural-4526c8239c4b44d5b8c1ed5493942415" }
   },
   {
     "slug": "st-adrià",
@@ -91,10 +103,14 @@
   {
     "slug": "fabra-i-coats",
     "title": "Fabra i Coats – Fàbrica de Creació (demo)",
-    "model": "/3dmodels/fabra-i-coats/model.glb",
+    "model": "/3dmodels/fabra-i-coats/factory.glb",
     "camera": { "pos": [2.1, 1.6, 2.2], "lookAt": [0, 0.7, 0] },
     "env": { "background": "#101215", "exposure": 1.0 },
-    "transform": { "scale": 1.0 }
+    "transform": { "scale": 1.0 },
+    "license": {
+      "type": "CC BY 4.0",
+      "author": "spicybamer",
+      "source": "https://sketchfab.com/3d-models/background-factory-ff12e33d1dc844c8ae03c37259b12e94" }
   },
   {
     "slug": "montana-gallery",
@@ -131,18 +147,26 @@
   {
     "slug": "skate-agora",
     "title": "Skate Agora Badalona (demo)",
-    "model": "/3dmodels/skate-agora/model.glb",
+    "model": "/3dmodels/skate-agora/skatepark.glb",
     "camera": { "pos": [2.1, 1.6, 2.2], "lookAt": [0, 0.5, 0] },
     "env": { "background": "#0e0e12", "exposure": 1.0 },
-    "transform": { "scale": 1.0, "rotation": [0, -0.2, 0] }
+    "transform": { "scale": 1.0, "rotation": [0, -0.2, 0] },
+    "license": {
+      "type": "CC BY 4.0",
+      "author": "matousekfoto",
+      "source": "https://sketchfab.com/3d-models/skatepark-17e32c89b5574d48b10f06a57d2500df" }
   },
   {
     "slug": "centre-fabra",
     "title": "Centre d’Art Contemporani Fabra i Coats (demo)",
-    "model": "/3dmodels/centre-fabra/model.glb",
+    "model": "/3dmodels/centre-fabra/art_gallery.glb",
     "camera": { "pos": [2.3, 1.6, 2.3], "lookAt": [0, 0.7, 0] },
     "env": { "background": "#0f1115", "exposure": 1.0 },
-    "transform": { "scale": 1.0 }
+    "transform": { "scale": 1.0 },
+    "license": {
+      "type": "CC BY 4.0",
+      "author": "denis_cliofas",
+      "source": "https://sketchfab.com/3d-models/art-gallery-3c3248e07296402ead6facab0a09bdcc" }
   },
   {
     "slug": "pla-armengol",

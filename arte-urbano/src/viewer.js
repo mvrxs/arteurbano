@@ -157,6 +157,20 @@ window.addEventListener('DOMContentLoaded', () => {
             fitCameraToObject(camera, controls, mesh, { padding: 1.2, yAlign: 'center' });
         }
 
+        if (item.license) {
+            const info = document.createElement('div');
+            info.style.cssText = `
+                position:absolute;bottom:10px;right:12px;
+                color:#ccc;font:12px system-ui;opacity:0.8;
+            `;
+            info.innerHTML = `
+                © <a href="${item.license.source}" target="_blank" style="color:#ccc;">
+                    ${item.license.author}
+                </a> — ${item.license.type}
+            `;
+            app.appendChild(info);
+        }
+
         // Responsive
         addEventListener('resize', () => {
             camera.aspect = innerWidth / innerHeight;

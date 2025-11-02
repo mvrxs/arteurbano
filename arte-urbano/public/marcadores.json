@@ -10,7 +10,7 @@
     "name": "Jardins de les Tres Xemeneies",
     "lat": 41.3729,
     "lng": 2.1666,
-    "slug": "demo-cubo",
+    "slug": "chimenea",
     "html": "<b>Jardins de les Tres Xemeneies</b><br>Epicentro del graffiti barcelonés. Los muros cambian cada semana con nuevas piezas urbanas."
   },
   {
@@ -45,21 +45,21 @@
     "name": "Parc Fluvial del Besòs",
     "lat": 41.4308,
     "lng": 2.2199,
-    "slug": "demo-cubo",
+    "slug": "besos",
     "html": "<b>Parc Fluvial del Besòs</b><br>Tramos de muros y pasarelas con arte urbano a lo largo del río Besòs, accesible en bici."
   },
   {
     "name": "Tres Xemeneies de Sant Adrià",
     "lat": 41.4301,
     "lng": 2.2386,
-    "slug": "demo-cubo",
+    "slug": "tres-xemeneies",
     "html": "<b>Tres Xemeneies de Sant Adrià</b><br>Antigua central térmica convertida en icono industrial y escenario para intervenciones artísticas."
   },
   {
     "name": "Fabra i Coats · Fàbrica de Creació",
     "lat": 41.4331,
     "lng": 2.1895,
-    "slug": "demo-cubo",
+    "slug": "fabra-i-coats",
     "html": "<b>Fabra i Coats</b><br>Centro cultural y artístico en una antigua fábrica textil. Acoge exposiciones de arte urbano y audiovisual."
   },
   {
@@ -94,14 +94,14 @@
     "name": "Skate Agora (Badalona)",
     "lat": 41.4411,
     "lng": 2.2352,
-    "slug": "demo-cubo",
+    "slug": "skate-agora",
     "html": "<b>Skate Agora</b><br>Parque de skate con intervenciones gráficas y murales colaborativos junto al mar."
   },
   {
     "name": "Centre d’Art Contemporani Fabra i Coats",
     "lat": 41.4325,
     "lng": 2.1898,
-    "slug": "demo-cubo",
+    "slug": "centre-fabra",
     "html": "<b>Centre d’Art Contemporani</b><br>Espacio público para exposiciones y proyectos de arte experimental y urbano."
   },
   {
