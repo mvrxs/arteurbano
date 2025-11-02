@@ -3,120 +3,140 @@
     "name": "El món neix en cada besada (Joan Fontcuberta)",
     "lat": 41.3849,
     "lng": 2.1759,
+    "slug": "demo-cubo",
     "html": "<b>El món neix en cada besada</b><br>Fotomosaico hecho con miles de imágenes de besos. Símbolo del amor y la participación ciudadana en el Gòtic."
   },
   {
     "name": "Jardins de les Tres Xemeneies",
     "lat": 41.3729,
     "lng": 2.1666,
+    "slug": "demo-cubo",
     "html": "<b>Jardins de les Tres Xemeneies</b><br>Epicentro del graffiti barcelonés. Los muros cambian cada semana con nuevas piezas urbanas."
   },
   {
     "name": "Mural de Keith Haring (réplica MACBA)",
     "lat": 41.3816,
     "lng": 2.1669,
+    "slug": "demo-cubo",
     "html": "<b>Mural de Keith Haring</b><br>Reproducción del mural original de 1989, símbolo de lucha contra el sida. Icono del Raval."
   },
   {
     "name": "B-Murals · Nau Bostik",
     "lat": 41.4263,
     "lng": 2.1893,
+    "slug": "demo-cubo",
     "html": "<b>B-Murals · Nau Bostik</b><br>Centro dedicado al arte urbano contemporáneo. Alberga exposiciones, talleres y murales permanentes."
   },
   {
     "name": "Poblenou Open Walls Festival",
     "lat": 41.4079,
     "lng": 2.2009,
+    "slug": "demo-cubo",
     "html": "<b>Poblenou Open Walls</b><br>Festival internacional que convierte el 22@ en un museo al aire libre con murales gigantes."
   },
   {
     "name": "La Escocesa (fábrica de creación)",
     "lat": 41.4083,
     "lng": 2.1997,
+    "slug": "demo-cubo",
     "html": "<b>La Escocesa</b><br>Fábrica de creación artística con residencias y espacios abiertos al arte urbano experimental."
   },
   {
     "name": "Parc Fluvial del Besòs",
     "lat": 41.4308,
     "lng": 2.2199,
+    "slug": "demo-cubo",
     "html": "<b>Parc Fluvial del Besòs</b><br>Tramos de muros y pasarelas con arte urbano a lo largo del río Besòs, accesible en bici."
   },
   {
     "name": "Tres Xemeneies de Sant Adrià",
     "lat": 41.4301,
     "lng": 2.2386,
+    "slug": "demo-cubo",
     "html": "<b>Tres Xemeneies de Sant Adrià</b><br>Antigua central térmica convertida en icono industrial y escenario para intervenciones artísticas."
   },
   {
     "name": "Fabra i Coats · Fàbrica de Creació",
     "lat": 41.4331,
     "lng": 2.1895,
+    "slug": "demo-cubo",
     "html": "<b>Fabra i Coats</b><br>Centro cultural y artístico en una antigua fábrica textil. Acoge exposiciones de arte urbano y audiovisual."
   },
   {
     "name": "Montana Gallery Barcelona",
     "lat": 41.3872,
     "lng": 2.1729,
+    "slug": "demo-cubo",
     "html": "<b>Montana Gallery</b><br>Galería especializada en arte urbano y graffiti contemporáneo. Punto de encuentro de artistas locales."
   },
   {
     "name": "Base Elements Urban Art Gallery",
     "lat": 41.3838,
     "lng": 2.1763,
+    "slug": "demo-cubo",
     "html": "<b>Base Elements</b><br>Galería del Gòtic centrada en el arte urbano internacional. Exhibe obras originales de artistas callejeros."
   },
   {
     "name": "Parc de les Tres Xemeneies (Poble-sec)",
     "lat": 41.3733,
     "lng": 2.1665,
+    "slug": "demo-cubo",
     "html": "<b>Parc de les Tres Xemeneies</b><br>Espacio urbano con grandes murales y obras efímeras en constante cambio."
   },
   {
     "name": "Parc del Clot · Murales urbanos",
     "lat": 41.4108,
     "lng": 2.1914,
+    "slug": "demo-cubo",
     "html": "<b>Parc del Clot</b><br>Antiguo entorno ferroviario reconvertido en parque con murales comunitarios y esculturas contemporáneas."
   },
   {
     "name": "Skate Agora (Badalona)",
     "lat": 41.4411,
     "lng": 2.2352,
+    "slug": "demo-cubo",
     "html": "<b>Skate Agora</b><br>Parque de skate con intervenciones gráficas y murales colaborativos junto al mar."
   },
   {
     "name": "Centre d’Art Contemporani Fabra i Coats",
     "lat": 41.4325,
     "lng": 2.1898,
+    "slug": "demo-cubo",
     "html": "<b>Centre d’Art Contemporani</b><br>Espacio público para exposiciones y proyectos de arte experimental y urbano."
   },
   {
     "name": "Jardins del Doctor Pla i Armengol",
     "lat": 41.4147,
     "lng": 2.1591,
+    "slug": "demo-cubo",
     "html": "<b>Jardins del Doctor Pla i Armengol</b><br>Esculturas contemporáneas integradas con vegetación patrimonial y espacios verdes."
   },
   {
     "name": "MUHBA Oliva Artés",
     "lat": 41.4044,
     "lng": 2.1968,
+    "slug": "demo-cubo",
     "html": "<b>MUHBA Oliva Artés</b><br>Museo del patrimonio industrial de Barcelona con muestras de arte urbano y tecnología."
   },
   {
     "name": "CCCB (Centre de Cultura Contemporània de Barcelona)",
     "lat": 41.3833,
     "lng": 2.1664,
+    "slug": "demo-cubo",
     "html": "<b>CCCB</b><br>Centro de referencia para la cultura contemporánea. Exhibiciones sobre ciudad, arte digital y multimedia."
   },
   {
     "name": "MACBA (Museu d’Art Contemporani de Barcelona)",
     "lat": 41.3839,
     "lng": 2.1668,
+    "slug": "demo-cubo",
     "html": "<b>MACBA</b><br>Museo central de arte contemporáneo en Barcelona. Punto de encuentro de skaters y artistas urbanos."
   },
   {
     "name": "Parc del Centre del Poblenou (Jean Nouvel)",
     "lat": 41.4027,
     "lng": 2.1965,
+    "slug": "demo-cubo",
     "html": "<b>Parc del Centre del Poblenou</b><br>Diseñado por Jean Nouvel. Contiene instalaciones efímeras y obras experimentales al aire libre."
   }
 ]

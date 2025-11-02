@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "bust-gotic",
+    "title": "Busto gótico (demo)",
+    "model": "/3dmodels/bust-gotic.glb",
+    "camera": { "pos": [1.8, 1.4, 2.2], "lookAt": [0, 1.0, 0] },
+    "env": { "background": "#101215", "exposure": 1.0 },
+    "transform": { "scale": 1.0, "rotation": [0, 0.6, 0] }
+  },
+  {
+    "slug": "mural-sant-andreu",
+    "title": "Mural Sant Andreu (demo)",
+    "model": "/3dmodels/mural-sant-andreu.glb",
+    "camera": { "pos": [0.8, 0.8, 2.2], "lookAt": [0, 0.5, 0] },
+    "env": { "background": "#0e0e12", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "demo-cubo",
+    "title": "Demo sin modelo (cubo)",
+    "model": null,
+    "camera": { "pos": [2.2, 1.6, 2.2], "lookAt": [0, 0, 0] },
+    "env": { "background": "#121212", "exposure": 1.0 },
+    "transform": { "scale": 1.0, "rotation": [0.2, 0.6, 0] }
+  }
+]

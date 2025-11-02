@@ -9,6 +9,18 @@
 </head>
 <body>
 <script type="module" src="./src/main.js"></script>
+<script type="module" src="/src/viewer.js"></script>
 <div id="map"></div>
+<!-- Overlay visor 3D -->
+<div id="viewer-overlay" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.75);backdrop-filter:blur(2px);">
+    <div style="position:absolute;top:20px;right:24px;z-index:2;">
+        <button id="viewer-close" style="background:#111;color:#fff;border:1px solid #444;border-radius:8px;padding:8px 12px;cursor:pointer">
+            Cerrar ✕
+        </button>
+    </div>
+    <iframe id="viewer-frame" src="about:blank"
+            style="position:absolute;inset:60px 40px 40px; width:calc(100% - 80px); height:calc(100% - 100px); border:1px solid #333; border-radius:12px; background:#000">
+    </iframe>
+</div>
 </body>
 </html>
