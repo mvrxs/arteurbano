@@ -80,7 +80,7 @@ window.addEventListener("DOMContentLoaded", () => {
         scene.add(mesh);
     }
 
-    // Responsivo
+    // Responsive
     addEventListener('resize', () => {
         camera.aspect = innerWidth / innerHeight;
         camera.updateProjectionMatrix();

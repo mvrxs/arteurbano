@@ -22,5 +22,166 @@
     "camera": { "pos": [2.2, 1.6, 2.2], "lookAt": [0, 0, 0] },
     "env": { "background": "#121212", "exposure": 1.0 },
     "transform": { "scale": 1.0, "rotation": [0.2, 0.6, 0] }
+  },
+
+  {
+    "slug": "besada",
+    "title": "El món neix en cada besada (demo)",
+    "model": "/3dmodels/besada/model.glb",
+    "camera": { "pos": [2.0, 1.6, 2.2], "lookAt": [0, 0.8, 0] },
+    "env": { "background": "#0f1115", "exposure": 1.0 },
+    "transform": { "scale": 1.0, "rotation": [0, 0.3, 0] }
+  },
+  {
+    "slug": "tres-xemeneies",
+    "title": "Jardins de les Tres Xemeneies (demo)",
+    "model": "/3dmodels/tres-xemeneies/model.glb",
+    "camera": { "pos": [2.2, 1.4, 2.0], "lookAt": [0, 0.6, 0] },
+    "env": { "background": "#0f1115", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "haring-bmacba",
+    "title": "Mural de Keith Haring – MACBA (demo)",
+    "model": "/3dmodels/haring-bmacba/model.glb",
+    "camera": { "pos": [2.4, 1.5, 2.4], "lookAt": [0, 0.7, 0] },
+    "env": { "background": "#101215", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "nau-bostik",
+    "title": "B-Murals · Nau Bostik (demo)",
+    "model": "/3dmodels/nau-bostik/model.glb",
+    "camera": { "pos": [1.9, 1.5, 2.1], "lookAt": [0, 0.7, 0] },
+    "env": { "background": "#0f1115", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "poblenou-open-walls",
+    "title": "Poblenou Open Walls (demo)",
+    "model": "/3dmodels/poblenou-open-walls/model.glb",
+    "camera": { "pos": [2.1, 1.6, 2.3], "lookAt": [0, 0.7, 0] },
+    "env": { "background": "#101215", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "la-escocesa",
+    "title": "La Escocesa – Fàbrica de creació (demo)",
+    "model": "/3dmodels/la-escocesa/model.glb",
+    "camera": { "pos": [2.0, 1.5, 2.0], "lookAt": [0, 0.6, 0] },
+    "env": { "background": "#0e0e12", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "besos",
+    "title": "Parc Fluvial del Besòs (demo)",
+    "model": "/3dmodels/besos/model.glb",
+    "camera": { "pos": [2.2, 1.4, 2.2], "lookAt": [0, 0.5, 0] },
+    "env": { "background": "#0f1115", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "st-adrià",
+    "title": "Tres Xemeneies de Sant Adrià (demo)",
+    "model": "/3dmodels/st-adria/model.glb",
+    "camera": { "pos": [2.3, 1.7, 2.1], "lookAt": [0, 0.6, 0] },
+    "env": { "background": "#0f1115", "exposure": 1.0 },
+    "transform": { "scale": 1.0, "rotation": [0, 0.2, 0] }
+  },
+  {
+    "slug": "fabra-i-coats",
+    "title": "Fabra i Coats – Fàbrica de Creació (demo)",
+    "model": "/3dmodels/fabra-i-coats/model.glb",
+    "camera": { "pos": [2.1, 1.6, 2.2], "lookAt": [0, 0.7, 0] },
+    "env": { "background": "#101215", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "montana-gallery",
+    "title": "Montana Gallery Barcelona (demo)",
+    "model": "/3dmodels/montana-gallery/model.glb",
+    "camera": { "pos": [1.8, 1.4, 2.0], "lookAt": [0, 0.6, 0] },
+    "env": { "background": "#0e0e12", "exposure": 1.0 },
+    "transform": { "scale": 1.0, "rotation": [0, 0.25, 0] }
+  },
+  {
+    "slug": "base-elements",
+    "title": "Base Elements Urban Art Gallery (demo)",
+    "model": "/3dmodels/base-elements/model.glb",
+    "camera": { "pos": [2.0, 1.5, 2.2], "lookAt": [0, 0.6, 0] },
+    "env": { "background": "#0f1115", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "tres-xemeneies-poble-sec",
+    "title": "Parc de les Tres Xemeneies (demo)",
+    "model": "/3dmodels/tres-xemeneies-poble-sec/model.glb",
+    "camera": { "pos": [2.2, 1.6, 2.0], "lookAt": [0, 0.6, 0] },
+    "env": { "background": "#101215", "exposure": 1.0 },
+    "transform": { "scale": 1.0, "rotation": [0, 0.15, 0] }
+  },
+  {
+    "slug": "clot",
+    "title": "Parc del Clot – Murales urbanos (demo)",
+    "model": "/3dmodels/clot/model.glb",
+    "camera": { "pos": [2.0, 1.5, 2.1], "lookAt": [0, 0.6, 0] },
+    "env": { "background": "#0f1115", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "skate-agora",
+    "title": "Skate Agora Badalona (demo)",
+    "model": "/3dmodels/skate-agora/model.glb",
+    "camera": { "pos": [2.1, 1.6, 2.2], "lookAt": [0, 0.5, 0] },
+    "env": { "background": "#0e0e12", "exposure": 1.0 },
+    "transform": { "scale": 1.0, "rotation": [0, -0.2, 0] }
+  },
+  {
+    "slug": "centre-fabra",
+    "title": "Centre d’Art Contemporani Fabra i Coats (demo)",
+    "model": "/3dmodels/centre-fabra/model.glb",
+    "camera": { "pos": [2.3, 1.6, 2.3], "lookAt": [0, 0.7, 0] },
+    "env": { "background": "#0f1115", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "pla-armengol",
+    "title": "Jardins del Doctor Pla i Armengol (demo)",
+    "model": "/3dmodels/pla-armengol/model.glb",
+    "camera": { "pos": [2.0, 1.4, 2.0], "lookAt": [0, 0.6, 0] },
+    "env": { "background": "#101215", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "muhba-oliva-artes",
+    "title": "MUHBA Oliva Artés (demo)",
+    "model": "/3dmodels/muhba-oliva-artes/model.glb",
+    "camera": { "pos": [2.2, 1.6, 2.1], "lookAt": [0, 0.6, 0] },
+    "env": { "background": "#0f1115", "exposure": 1.0 },
+    "transform": { "scale": 1.0, "rotation": [0, 0.1, 0] }
+  },
+  {
+    "slug": "cccb",
+    "title": "CCCB (demo)",
+    "model": "/3dmodels/cccb/model.glb",
+    "camera": { "pos": [2.0, 1.5, 2.2], "lookAt": [0, 0.6, 0] },
+    "env": { "background": "#0e0e12", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "macba",
+    "title": "MACBA (demo)",
+    "model": "/3dmodels/macba/model.glb",
+    "camera": { "pos": [2.1, 1.6, 2.3], "lookAt": [0, 0.6, 0] },
+    "env": { "background": "#0f1115", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
+  },
+  {
+    "slug": "centre-poblenou",
+    "title": "Parc del Centre del Poblenou (demo)",
+    "model": "/3dmodels/centre-poblenou/model.glb",
+    "camera": { "pos": [2.0, 1.5, 2.0], "lookAt": [0, 0.6, 0] },
+    "env": { "background": "#101215", "exposure": 1.0 },
+    "transform": { "scale": 1.0 }
   }
 ]
