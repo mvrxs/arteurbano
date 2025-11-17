@@ -1,10 +1,22 @@
+import './style.css';
+
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader }   from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { DRACOLoader }  from 'three/examples/jsm/loaders/DRACOLoader.js';
 
+
 window.addEventListener('DOMContentLoaded', () => {
-    const app = document.getElementById('app');
+    const app = document.getElementById('viewer-root');
+
+    if (!app) {
+        console.error('No se encontró #viewer-root');
+        return;
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get('slug');
+
     if (!app) {
         console.error('No se encontró #app');
         return;

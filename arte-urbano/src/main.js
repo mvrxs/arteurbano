@@ -1,37 +1,33 @@
-import 'leaflet/dist/leaflet.css'
-import L from 'leaflet'
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
 
-import iconUrl from 'leaflet/dist/images/marker-icon.png';
-import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
-import shadowUrl from 'leaflet/dist/images/marker-shadow.png';
+// IMPORTS LEAFLET
+import markerIconUrl from 'leaflet/dist/images/marker-icon.png';
+import markerIconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
+import markerShadowUrl from 'leaflet/dist/images/marker-shadow.png';
+
+
+
+L.Icon.Default.imagePath = '';
 
 L.Icon.Default.mergeOptions({
-    iconUrl,
-    iconRetinaUrl,
-    shadowUrl
+    iconUrl: markerIconUrl,
+    iconRetinaUrl: markerIconRetinaUrl,
+    shadowUrl: markerShadowUrl,
 });
+
 
 // CONSTANTES
 const overlay   = document.getElementById('viewer-overlay');
 const frame     = document.getElementById('viewer-frame');
 const btnClose  = document.getElementById('viewer-close');
-const markerIcon = L.icon({
-    iconUrl: icon,
-    iconRetinaUrl: icon2x,
-    shadowUrl: shadow,
-    iconSize: [25,41],
-    iconAnchor: [12,41],
-    popupAnchor: [1,-34],
-    shadowSize: [41,41],
-})
 
+// FUNCIONES DEL OVERLAY
+const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
 
-//FUNCIONES DEL OVERLAY
 function openViewer(slug) {
-    // Carga el visor existente dentro del iframe
-    frame.src = `/viewer.html?slug=${encodeURIComponent(slug)}`;
+    frame.src = `${base}/viewer.html?slug=${encodeURIComponent(slug)}`;
     overlay.style.display = 'block';
-    // (opcional) congelar interacciones del mapa mientras está abierto
     map.dragging.disable();
     map.scrollWheelZoom.disable();
     map.doubleClickZoom.disable();
@@ -87,9 +83,9 @@ map.on('tileerror', (e) => {
 })
 
 // LLAMADA A LOS MARCADORES CON THREE
-const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
+//const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
 
-fetch(`${base}/marcadores.json`)
+fetch('/marcadores.json')
     .then(r => r.json())
     .then(puntos => {
         puntos.forEach(p => {
