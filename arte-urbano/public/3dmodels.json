@@ -59,26 +59,38 @@
   {
     "slug": "nau-bostik",
     "title": "B-Murals · Nau Bostik (demo)",
-    "model": "/3dmodels/nau-bostik/model.glb",
+    "model": "/3dmodels/nau-bostik/nau.glb",
     "camera": { "pos": [1.9, 1.5, 2.1], "lookAt": [0, 0.7, 0] },
     "env": { "background": "#0f1115", "exposure": 1.0 },
-    "transform": { "scale": 1.0 }
+    "transform": { "scale": 1.0 },
+    "license": {
+      "type": "CC BY 4.0",
+      "author": "Austin Beaulier",
+      "source": "https://sketchfab.com/3d-models/houston-graffiti-building-photogrammetry-96b4546388c546cabd03f4f82705edb4" }
   },
   {
     "slug": "poblenou-open-walls",
     "title": "Poblenou Open Walls (demo)",
-    "model": "/3dmodels/poblenou-open-walls/model.glb",
+    "model": "/3dmodels/poblenou-open-walls/walls.glb",
     "camera": { "pos": [2.1, 1.6, 2.3], "lookAt": [0, 0.7, 0] },
     "env": { "background": "#101215", "exposure": 1.0 },
-    "transform": { "scale": 1.0 }
+    "transform": { "scale": 1.0 },
+    "license": {
+      "type": "CC BY 4.0",
+      "author": "yanosen",
+      "source": "https://sketchfab.com/3d-models/small-art-gallery-space-7947c87e61514e309d614d2af9f22f7b" }
   },
   {
     "slug": "la-escocesa",
     "title": "La Escocesa – Fàbrica de creació (demo)",
-    "model": "/3dmodels/la-escocesa/model.glb",
+    "model": "/3dmodels/la-escocesa/buildmural.glb",
     "camera": { "pos": [2.0, 1.5, 2.0], "lookAt": [0, 0.6, 0] },
     "env": { "background": "#0e0e12", "exposure": 1.0 },
-    "transform": { "scale": 1.0 }
+    "transform": { "scale": 1.0 },
+    "license": {
+      "type": "CC BY-NC-SA 4.0",
+      "author": "Emm",
+      "source": "https://sketchfab.com/3d-models/mural-in-los-angeles-6d3b3b0434fc46a0afff45f35a058050" }
   },
   {
     "slug": "besos",
@@ -139,10 +151,14 @@
   {
     "slug": "clot",
     "title": "Parc del Clot – Murales urbanos (demo)",
-    "model": "/3dmodels/clot/model.glb",
+    "model": "/3dmodels/clot/arch.glb",
     "camera": { "pos": [2.0, 1.5, 2.1], "lookAt": [0, 0.6, 0] },
     "env": { "background": "#0f1115", "exposure": 1.0 },
-    "transform": { "scale": 1.0 }
+    "transform": { "scale": 1.0 },
+    "license": {
+      "type": "CC BY 4.0",
+      "author": "mbhplc",
+      "source": "https://sketchfab.com/3d-models/semi-circular-brick-arch-8850d25edd9349c2b51275c50c1a5e0f" }
   },
   {
     "slug": "skate-agora",
@@ -171,10 +187,14 @@
   {
     "slug": "pla-armengol",
     "title": "Jardins del Doctor Pla i Armengol (demo)",
-    "model": "/3dmodels/pla-armengol/model.glb",
+    "model": "/3dmodels/pla-armengol/escultura.glb",
     "camera": { "pos": [2.0, 1.4, 2.0], "lookAt": [0, 0.6, 0] },
     "env": { "background": "#101215", "exposure": 1.0 },
-    "transform": { "scale": 1.0 }
+    "transform": { "scale": 1.0 },
+    "license": {
+      "type": "CC BY 4.0",
+      "author": "Museu de Badalona",
+      "source": "https://sketchfab.com/3d-models/bacus-de-terracota-museu-de-badalona-d772d6bd8c064dc18165dafae48b72fd" }
   },
   {
     "slug": "muhba-oliva-artes",
@@ -195,7 +215,7 @@
   {
     "slug": "macba",
     "title": "MACBA (demo)",
-    "model": "/3dmodels/macba/model.glb",
+    "model": "/3dmodels/macba/macba.glb",
     "camera": { "pos": [2.1, 1.6, 2.3], "lookAt": [0, 0.6, 0] },
     "env": { "background": "#0f1115", "exposure": 1.0 },
     "transform": { "scale": 1.0 }
@@ -206,6 +226,10 @@
     "model": "/3dmodels/centre-poblenou/model.glb",
     "camera": { "pos": [2.0, 1.5, 2.0], "lookAt": [0, 0.6, 0] },
     "env": { "background": "#101215", "exposure": 1.0 },
-    "transform": { "scale": 1.0 }
+    "transform": { "scale": 1.0 },
+    "license": {
+      "type": "CC BY-NC-SA 4.0",
+      "author": "OuterspaceSoftware",
+      "source": "https://sketchfab.com/3d-models/the-mardou-museum-daad27708791473eb3361401906492c0" }
   }
 ]
