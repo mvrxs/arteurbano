@@ -218,7 +218,11 @@
     "model": "/3dmodels/macba/macba.glb",
     "camera": { "pos": [2.1, 1.6, 2.3], "lookAt": [0, 0.6, 0] },
     "env": { "background": "#0f1115", "exposure": 1.0 },
-    "transform": { "scale": 1.0 }
+    "transform": { "scale": 1.0 },
+    "license": {
+      "type": "CC BY-NC-SA 4.0",
+      "author": "OuterspaceSoftware",
+      "source": "https://sketchfab.com/3d-models/the-mardou-museum-daad27708791473eb3361401906492c0" }
   },
   {
     "slug": "centre-poblenou",
