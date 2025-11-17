@@ -23,6 +23,8 @@ const btnClose = document.getElementById('viewer-close');
 // BASE URL (para Vercel / subcarpetas)
 const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
 
+// MAPA BASE
+
 // FUNCIONES DEL OVERLAY
 function openViewer(slug) {
     frame.src = `${base}/viewer.html?slug=${encodeURIComponent(slug)}`;
@@ -57,8 +59,9 @@ document.addEventListener('click', (e) => {
 });
 
 // MAPA BASE
-const map = L.map('map').setView([41.387, 2.170], 13);
-
+// MAPA BASE
+// MAPA BASE
+const map = L.map('map').setView([41.3851, 2.1734], 13);
 // TEMA CARTO DEL MAPA
 const capasBase = {
     Claro: L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
@@ -102,6 +105,118 @@ fetch('/marcadores.json')
             L.marker([p.lat, p.lng]).addTo(map).bindPopup(popupHTML);
         });
     });
+
+
+
+// --- Toasts Manovich ---
+
+const manovichToast   = document.getElementById('manovich-toast');
+const manovichTitle   = manovichToast?.querySelector('.manovich-toast-title');
+const manovichBody    = manovichToast?.querySelector('.manovich-toast-body');
+const manovichClose   = manovichToast?.querySelector('.manovich-toast-close');
+const manovichButtons = document.querySelectorAll('.manovich-btn');
+
+let manovichTimer = null;
+
+// Mensajes de Manovich
+const MANOVICH_MESSAGES = {
+    gafas: {
+        title: 'Las gafas de Manovich',
+        body: `Antes el acceso al patrimonio se hacía con visitas físicas y guías en papel.
+En esta web, el software remedia esa experiencia: usa mapas digitales,
+datos y modelos 3D para transformar cómo exploramos las obras, siguiendo
+los principios de los nuevos medios de Manovich (modularidad, variabilidad,
+automatización y transcodificación).`
+    },
+    remediacion: {
+        title: '¿Qué es la Remediación?',
+        body: `La remediación significa que un medio se apropia de otro.
+Esta web digital remedia la experiencia tradicional de visitar la ciudad: transforma el recorrido físico,
+las guías turísticas impresas y la observación directa en una exploración digital interactiva mediante mapa,
+popups y modelos 3D.`
+    },
+    num: {
+        title: 'Principio: Representación Numérica',
+        body: `Todo lo que ves aquí está representado como datos digitales.
+Las obras, coordenadas, imágenes y modelos 3D existen en forma de números,
+lo que permite manipularlos, moverlos, mostrar detalles o cambiar su escala mediante software.`
+    },
+    modularidad: {
+        title: 'Principio: Modularidad',
+        body: `Esta experiencia está construida por módulos independientes.
+El mapa, los marcadores, los textos, los modelos 3D y los popups funcionan como bloques separados que se combinan.
+Este enfoque modular es esencial en los nuevos medios según Manovich.`
+    },
+    automatizacion: {
+        title: 'Principio: Automatización',
+        body: `El software realiza tareas que antes dependían del usuario.
+Leaflet calcula las posiciones en el mapa, Three.js renderiza automáticamente los modelos 3D,
+y la interfaz genera información en tiempo real sin intervención humana directa.`
+    },
+    variabilidad: {
+        title: 'Principio: Variabilidad',
+        body: `Cada usuario vive una experiencia diferente.
+El recorrido depende de tus clics, de qué obras selecciones y de cómo navegues el mapa.
+No hay una ruta fija: la interfaz genera múltiples versiones posibles de la experiencia.`
+    },
+    transcodificacion: {
+        title: 'Principio: Transcodificación',
+        body: `Lo cultural se convierte en computacional.
+Las obras físicas se traducen a coordenadas, modelos 3D, imágenes y código.
+El significado cultural original convive con una nueva estructura basada en datos y algoritmos.`
+    },
+    metamedio: {
+        title: '¿Qué es un metamedio?',
+        body: `El ordenador combina múltiples medios en uno solo.
+En esta misma interfaz se mezclan fotografía, geolocalización, texto, datos, hipertexto, 3D y animación:
+esto convierte al ordenador en un metamedio, como describen Kay y Manovich.`
+    },
+    interfaz: {
+        title: 'La interfaz cultural',
+        body: `El mapa es una interfaz cultural.
+Decide qué vemos, cómo lo exploramos y qué información recibimos.
+Organiza la experiencia visual y cognitiva del usuario, transformando la ciudad en un sistema navegable.`
+    }
+};
+
+function showManovichToast(key) {
+    if (!manovichToast || !manovichTitle || !manovichBody) return;
+
+    const msg = MANOVICH_MESSAGES[key];
+    if (!msg) return;
+
+    manovichTitle.textContent = msg.title;
+    manovichBody.textContent  = msg.body;
+
+    manovichToast.classList.add('is-visible');
+    manovichToast.setAttribute('aria-hidden', 'false');
+
+    if (manovichTimer) clearTimeout(manovichTimer);
+    manovichTimer = setTimeout(hideManovichToast, 12000); // 12s
+}
+
+function hideManovichToast() {
+    if (!manovichToast) return;
+    manovichToast.classList.remove('is-visible');
+    manovichToast.setAttribute('aria-hidden', 'true');
+}
+
+manovichButtons.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const key = btn.dataset.toast;
+        showManovichToast(key);
+    });
+});
+
+manovichClose?.addEventListener('click', (e) => {
+    e.preventDefault();
+    hideManovichToast();
+});
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') hideManovichToast();
+});
 
 // ATRIBUCIÓN FOOTER
 map.attributionControl.setPrefix(false);
