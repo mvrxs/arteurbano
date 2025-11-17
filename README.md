@@ -41,7 +41,7 @@ El objetivo es reinterpretar las guías culturales tradicionales mediante herram
 - **HTML / CSS / JavaScript**  
 - **GLTF / GLB** – Formato de modelos  
 - **Vercel** – Hosting del proyecto  
-- **Creative Commons** – Recursos con licencia abierta  
+- **Creative Commons** – CC-BY-SA-NC 4.0  
 
 ---
 
