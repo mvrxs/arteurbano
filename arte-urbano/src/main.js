@@ -61,7 +61,7 @@ document.addEventListener('click', (e) => {
 // MAPA BASE
 // MAPA BASE
 // MAPA BASE
-const map = L.map('map').setView([41.3851, 2.1734], 13);
+const map = L.map('map').setView([41.4045, 2.1921], 14);
 // TEMA CARTO DEL MAPA
 const capasBase = {
     Claro: L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
