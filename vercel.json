@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "arte-urbano/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "arte-urbano/dist"
+      }
+    }
+  ]
+}
