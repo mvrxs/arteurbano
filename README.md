@@ -34,7 +34,7 @@ Todo se ha desarrollado siguiendo los principios de **remediación y transcodifi
 ## 🌐 Demo en línea
 
 <p align="center">
-  <a href="AÑADE_AQUÍ_URL_DE_VERCEL" target="_blank">
+  <a href="https://urbano-lime.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Ir%20a%20la%20Demo-000?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
 </p>
@@ -77,3 +77,72 @@ Diseñado para funcionar tanto en dispositivos móviles como en escritorio.
 ---
 
 ## 📁 Estructura del proyecto
+arte-urbano/
+│
+├── dist/                  # Archivos generados por Vite (deploy)
+├── node_modules/
+│
+├── public/
+│   ├── 3dmodels/          # Carpetas por obra/artista con modelos .glb/.gltf
+│   │     ├── besada/
+│   │     ├── la-escocesa/
+│   │     └── …
+│   │
+│   ├── leaflet/           # Iconos del mapa
+│   ├── 3dmodels.json      # Mapeo de piezas 3D y sus licencias
+│   └── marcadores.json    # Chinchetas, posiciones e info
+│
+├── src/
+│   ├── main.js            # Lógica principal (mapa, interacciones)
+│   ├── viewer.js          # Visor 3D con Three.js
+│   ├── style.css          # Estilos
+│   ├── javascript.svg
+│   └── counter.js
+│
+├── index.html             # Página principal
+├── viewer.html            # Página del visor 3D
+│
+├── package.json
+├── vite.config.js
+└── .gitignore
+
+---
+
+## ✨ Características principales
+
+### 🗺️ **1. Mapa interactivo con Leaflet**  
+- Marcadores cargados dinámicamente  
+- Popups limpios y accesibles  
+- Diseño minimalista tipo app cultural
+
+### 🎭 **2. Exploración 3D con Three.js**  
+Cada obra:
+
+- Se renderiza en tiempo real  
+- Puede rotarse, examinarse y manipularse  
+- Muestra su licencia Creative Commons correspondiente  
+
+### 📦 **3. Datos modulares (JSON)**
+
+Tu proyecto está perfectamente modularizado:
+
+| Archivo | Función |
+|--------|---------|
+| `marcadores.json` | Chinchetas: título, ubicación, descripción |
+| `3dmodels.json` | Modelos 3D + autor + licencia + ruta GLB |
+| Carpetas en `3dmodels/` | Cada obra contiene sus archivos 3D |
+
+### ⚡ **4. Vite para desarrollo rápido**  
+- Hot reload  
+- Build optimizado  
+- Preparado para Vercel sin configuración adicional
+
+---
+
+## 🛠️ Instalación y ejecución
+
+### ➤ 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/tuusuario/arteurbano.git
+cd arteurbano
