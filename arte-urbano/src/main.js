@@ -1,9 +1,15 @@
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 
-import icon2x from 'leaflet/dist/images/marker-icon-2x.png'
-import icon   from 'leaflet/dist/images/marker-icon.png'
-import shadow from 'leaflet/dist/images/marker-shadow.png'
+import iconUrl from 'leaflet/dist/images/marker-icon.png';
+import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
+import shadowUrl from 'leaflet/dist/images/marker-shadow.png';
+
+L.Icon.Default.mergeOptions({
+    iconUrl,
+    iconRetinaUrl,
+    shadowUrl
+});
 
 // CONSTANTES
 const overlay   = document.getElementById('viewer-overlay');
