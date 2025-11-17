@@ -43,6 +43,3 @@ El objetivo es reinterpretar las guías culturales tradicionales mediante herram
 - **Vercel** – Hosting del proyecto  
 - **Creative Commons** – CC-BY-SA-NC 4.0  
 
----
-
-## 📁 Estructura del proyecto
