@@ -79,32 +79,44 @@ Diseñado para funcionar tanto en dispositivos móviles como en escritorio.
 ## 📁 Estructura del proyecto
 arte-urbano/
 │
-├── dist/                  # Archivos generados por Vite (deploy)
-├── node_modules/
+├── dist/                     # Archivos generados por Vite (deploy)
+│
+├── node_modules/            # Dependencias del proyecto
 │
 ├── public/
-│   ├── 3dmodels/          # Carpetas por obra/artista con modelos .glb/.gltf
-│   │     ├── besada/
-│   │     ├── la-escocesa/
-│   │     └── …
+│   ├── 3dmodels/            # Carpetas por obra/artista con modelos .glb/.gltf
+│   │   ├── besada/
+│   │   ├── besos/
+│   │   ├── centre-fabra/
+│   │   ├── clot/
+│   │   ├── fabra-i-coats/
+│   │   ├── la-escocesa/
+│   │   ├── macba/
+│   │   ├── nau-bostik/
+│   │   ├── pla-armengol/
+│   │   ├── poblenou-open-w/
+│   │   ├── skate-agora/
+│   │   └── tres-xemeneies/
 │   │
-│   ├── leaflet/           # Iconos del mapa
-│   ├── 3dmodels.json      # Mapeo de piezas 3D y sus licencias
-│   └── marcadores.json    # Chinchetas, posiciones e info
+│   ├── leaflet/             # Iconos del mapa (Leaflet)
+│   │
+│   ├── 3dmodels.json        # Mapeo de piezas 3D y sus licencias
+│   └── marcadores.json      # Chinchetas, posiciones e info
 │
 ├── src/
-│   ├── main.js            # Lógica principal (mapa, interacciones)
-│   ├── viewer.js          # Visor 3D con Three.js
-│   ├── style.css          # Estilos
-│   ├── javascript.svg
-│   └── counter.js
+│   ├── main.js              # Lógica principal (mapa, interacciones)
+│   ├── viewer.js            # Visor 3D con Three.js
+│   ├── style.css            # Estilos principales de la web
+│   ├── javascript.svg       # Icono decorativo
+│   └── counter.js           # Script auxiliar
 │
-├── index.html             # Página principal
-├── viewer.html            # Página del visor 3D
+├── index.html               # Página principal (mapa interactivo)
+├── viewer.html              # Página del visor 3D
 │
-├── package.json
-├── vite.config.js
-└── .gitignore
+├── package.json             # Dependencias y scripts
+├── package-lock.json        # Bloqueo de dependencias
+├── vite.config.js           # Configuración de Vite
+└── .gitignore               # Archivos ignorados por Git
 
 ---
 
